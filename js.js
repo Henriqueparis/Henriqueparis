@@ -40,7 +40,9 @@ $(document).ready(function(){
         }else{
             $('#langone').css('display','none');
             $('#biop_en').css('display','none');
+            $('#biop_pt').css('display','none');
             $('#en').css('text-decoration','none');
+            $('#pt').css('text-decoration','none');
             control1 = 0;
         }
     });
@@ -72,7 +74,9 @@ $(document).ready(function(){
     }else{
         $('#langtwo').css('display','none');
         $('#bio_en').css('display','none');
+        $('#bio_pt').css('display','none');
         $('#enn').css('text-decoration','none');
+        $('#ptt').css('text-decoration','none');
         control2 = 0;
     }
 
