@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'Ortica';
+    src: url('fonts/Ortica-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div#main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+}
+
+div#mainn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+}
+
+div#mainnn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+}
+
+body {
+    background-color: #cccccc;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    margin-top: 0;
+    overflow-x: hidden;
+    cursor: default;
+    overflow: transparent;
+}
+
+div#background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    overflow: hidden;
+}
+
+img.fundo {
+    margin: auto;
+    max-width: auto;
+    max-height: 100%;
+    height: auto;
+}
+
+div#top {
+    position: absolute;
+    left: 0;
+    top: 2vh;
+    min-width: 100%;
+    height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    z-index: 2;
+}
+
+img.home {
+    margin: auto;
+    width: auto;
+    height: 8vh;
+    z-index: 2;
+    cursor: pointer;
+}
+
+div#publication {
+    position: absolute;
+    left: 0;
+    top: 10vh;
+    width: 100%;
+    height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+
+img.pub {
+    margin: auto;
+    width: auto;
+    height: 65vh;
+    cursor: pointer;
+}
+
+div#text {
+    position: absolute;
+    left: 0;
+    top: 75vh;
+    width: 100%;
+    height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+div#textt {
+    position: absolute;
+    left: 0;
+    top: 70vh;
+    width: 100%;
+    height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+p.text {
+   color: #cdcccb;
+   font-family: 'Inter';
+   font-size: 1.8vh;
+   text-align: center;
+}
+
+p.stext {
+   color: #cdcccb;
+   font-family: 'Inter';
+   font-size: 1.3vh; 
+   line-height: 1.8vh;
+   text-align: center; 
+}
+
+a.link:link {
+   color: #cdcccb;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+a.link:visited {
+   color: #cdcccb;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+a.link:hover {
+   color: #cdcccb;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+div#footer{
+    position: absolute;
+    left: 0;
+    bottom: 2vh;
+    width: 100%;
+    height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+}
+
+span.footer {
+   color: #cdcccb;
+   font-family: 'Ortica';
+   font-size: 2vh; 
+   transform:scale(1,1.3);
+   text-align: center;    
+}
+
+div#more_info {
+    position: absolute;
+    left: 0;
+    top: 0vh;
+    width: 100%;
+    height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+}
+
+p.title {
+   color: #cdcccb;
+   font-family: 'Ortica';
+   font-size: 3vh; 
+   line-height: 3.2vh;
+   transform:scale(1,1.3);
+   text-align: center; 
+   cursor: pointer;  
+   width: 90%; 
+}
+
+div#langone {
+    position: relative;
+    left: 0;
+    top: 0vh;
+    width: 100%;
+    height: auto;
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+
+div#biop_en {
+    position: relative;
+    left: 0;
+    top: 0vh;
+    width: 50%;
+    height: auto;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+div#biop_pt {
+    position: relative;
+    left: 0;
+    top: 0vh;
+    width: 50%;
+    height: auto;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+div#langtwo {
+    position: relative;
+    left: 0;
+    top: 0vh;
+    width: 100%;
+    height: auto;
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+
+div#bio_en {
+    position: relative;
+    left: 0;
+    top: 0vh;
+    width: 50%;
+    height: auto;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+div#bio_pt {
+    position: relative;
+    left: 0;
+    top: 0vh;
+    width: 50%;
+    height: auto;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+p#pt, p#en, p#enn, p#ptt {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1023px)   {
+
+div#bio_en {
+    width: 90%;
+}
+
+div#bio_pt {
+    width: 90%;
+} 
+
+div#biop_en {
+    width: 90%;
+}
+
+div#biop_pt {
+    width: 90%;
+} 
+
+p.stext {
+   color: #cdcccb;
+   font-family: 'Inter';
+   font-size: 1.8vh; 
+   line-height: 2vh;
+   text-align: center; 
+}
+
+
+}
+
+
+
+
