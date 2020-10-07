@@ -71,8 +71,8 @@ div#background {
 
 img.fundo {
     margin: auto;
-    width: 100vw;
-    height: auto;
+    width: auto;
+    height: 100vh;
 }
 
 div#top {
@@ -294,12 +294,6 @@ p#pt, p#en, p#enn, p#ptt {
 
 @media only screen and (max-width: 1023px)   {
     
-img.fundo {
-    margin: auto;
-    width: auto;
-    height: 100vh;
-}
-
 div#bio_en {
     width: 90%;
 }
