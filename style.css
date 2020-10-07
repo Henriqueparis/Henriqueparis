@@ -72,7 +72,7 @@ div#background {
 img.fundo {
     margin: auto;
     width: auto;
-    height: 100vh;
+    height: 100%;
 }
 
 div#top {
