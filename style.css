@@ -5,6 +5,12 @@
     font-style: normal;
 }
 
+.button {
+    margin-top: -10vh;
+    width: auto;
+    height: 5vh;
+}
+
 div#main {
     position: absolute;
     left: 0;
