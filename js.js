@@ -196,4 +196,3 @@ else {
         $('#enn').css('text-decoration','underline');
     });
 }
-}
