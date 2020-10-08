@@ -195,5 +195,5 @@ else {
         $('#ptt').css('text-decoration','none');
         $('#enn').css('text-decoration','underline');
     });
-})
+}
 }
