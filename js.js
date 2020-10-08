@@ -1,3 +1,6 @@
+var mq = window.matchMedia("(min-width: 1024px)");
+if (mq.matches) {
+    
 var control1 = 0;
 var control2 = 0;
 
@@ -96,3 +99,13 @@ $(document).ready(function(){
         $('#enn').css('text-decoration','underline');
     });
 })
+    
+}
+
+else {
+    $('.pub').hover(function(){
+        $(this).attr('src', 'images/pubb.png');
+    }, function(){
+        $(this).attr('src', 'images/pubb.png');
+    });
+}
