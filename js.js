@@ -97,9 +97,7 @@ $(document).ready(function(){
         $('#bio_en').css('display','flex');
         $('#ptt').css('text-decoration','none');
         $('#enn').css('text-decoration','underline');
-    });
-})
-    
+    });  
 }
 
 else {
@@ -195,4 +193,5 @@ else {
         $('#ptt').css('text-decoration','none');
         $('#enn').css('text-decoration','underline');
     });
+  })
 }
