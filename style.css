@@ -318,7 +318,8 @@ p.stext {
    text-align: center; 
 }
 
-body {
+
+html, body {
     overflow: hidden;
 }
 
