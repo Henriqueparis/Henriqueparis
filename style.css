@@ -16,7 +16,7 @@ div#main {
     left: 0;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -28,7 +28,7 @@ div#mainn {
     left: 0;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: auto;
         display: none;
         flex-direction: column;
         align-items: center;
@@ -40,7 +40,7 @@ div#mainnn {
     left: 0;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -49,8 +49,8 @@ div#mainnn {
 
 body {
     background-color: #cccccc;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     top: 0;
     left: 0;
     margin-left: 0;
@@ -64,8 +64,8 @@ div#background {
     position: fixed;
     left: 0;
     top: 0;
-    min-width: 100%; 
-    min-height: 100%;
+    width: 100%; 
+    height: auto;
     overflow: hidden;
 }
 
