@@ -98,7 +98,7 @@ $(document).ready(function(){
         $('#ptt').css('text-decoration','none');
         $('#enn').css('text-decoration','underline');
     });  
-}
+})
 
 else {
     $('.pub').hover(function(){
